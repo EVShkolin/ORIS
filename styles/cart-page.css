@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #bdbdbd;
+    background: radial-gradient(circle, rgba(189, 189, 189, 1) 0%, rgba(171, 198, 235, 1) 100%);
+}
+
+header {
+    border: 2px solid black
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cart-item {
+    width: 600px;
+    height: 100px;
+    background: #A3A3E4;
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: right;
+}
+
+.cart-item-image {
+    height: 100%;
+}
+
+span {
+    margin: 60px;
+    font-weight: bold;
+}

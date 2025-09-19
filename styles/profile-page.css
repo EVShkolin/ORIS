@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #bdbdbd;
+    background: radial-gradient(circle, rgba(189, 189, 189, 1) 0%, rgba(171, 198, 235, 1) 100%);
+}
+
+header {
+    border: 2px solid black
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#profile-photo {
+    height: 200px;
+    margin-left: 30px;
+}
+
+#profile-info {
+    width: 300px;
+    background-color: #a3a3e4;
+    border: 1px solid black;
+    line-height: 50px;
+}
+
+p {
+    font-size: 20px;
+}
