@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/form.css">
+    <script src="js/script.js"></script>
+<!--  Внутри tomcat ищет ссылки не относительно этого html файла, а относительно корня  -->
+</head>
+<body>
+<form action="/HW3/home" method="post">
+    <div>
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name">
+    </div>
+    <p class="hidden" id="name-error">asfasf</p>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+    </div>
+    <p class="hidden" id="email-error"></p>
+
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
