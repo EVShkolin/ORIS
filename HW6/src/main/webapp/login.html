@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="/HW6/login" method="POST" class="form">
+            <h1 class="page-type">Log in</h1>
+            <div class="form form__username">
+                <label for="username">Username: </label>
+                <input class="input" type="text" name="username" id="username" required />
+            </div>
+
+            <div class="form ">
+                <label for="password">Password: </label>
+                <input class="input" type="password" name="password" id="password" required />
+            </div>
+
+            <div class="form">
+                <input class="input form__submit-button" type="submit" value="Log in" />
+            </div>
+            <p>Don't have account? <a class="sign-up" href="/HW6/signup">Sign up</a></p>
+        </form>
+    </div>
+</body>
+</html>
