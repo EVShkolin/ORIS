@@ -1,4 +1,4 @@
-package org.project.servlet;
+package org.project.controller;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
