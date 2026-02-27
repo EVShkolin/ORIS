@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:17
+    container_name: user-db
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: users
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
